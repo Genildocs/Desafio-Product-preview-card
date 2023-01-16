@@ -10,3 +10,15 @@ To solve this challenge I used the flexbox properties to vertically align the it
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
+
+### Link
+- Solution URL(https://genildocs.github.io/Desafio-Product-preview-card/)
+
+### My process
+
+- Flexbox
+- Semantic HTML5 markup
+- CSS custom properties
+
+### Author
+- Frontend Mentor - @Genildocs
