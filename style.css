@@ -110,7 +110,7 @@ button:active{
      top: 4px;
 }
 
-.attribution{
+footer{
      position: relative;
      top: 800px;
      text-align: center;   
@@ -122,7 +122,7 @@ button:active{
 
 @media (max-width:500px){
      body{
-          width: 375px;               
+          width: 37%;               
      }
 
      .main-container{
@@ -135,14 +135,15 @@ button:active{
 
      .image-mobile{
           height: 240px;
+          width: 58%;
           display: block;
      }
 
-     .attribution{
+     footer{
           display: none;
      }
 
      section{
-          width: 343px;          
+          width: 58%;          
      }
 }
