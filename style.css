@@ -34,9 +34,6 @@ section {
   border-radius: 0 5px 5px 0;
 }
 
-img {
-  border-radius: 5px 0px 0px 5px;
-}
 
 .new-paragraph {
   font-weight: 500;
@@ -107,6 +104,7 @@ button:active {
 
 .image-desktop {
   height: 450px;
+  border-radius: 5px 0px 0px 5px;
 }
 .image-cart {
   position: relative;
@@ -127,9 +125,11 @@ footer {
   .main-container {
     flex-direction: column;
     height: auto;
+    margin: 28px 16px 28px 16px;
   }
   .image-desktop {
     width: 350px;
+    height: auto;    
   }
 
   section {
@@ -137,8 +137,7 @@ footer {
     max-width: 350px;
   }
 
-  img {
-  }
+  
 }
 
 @media (max-width: 350px) {
