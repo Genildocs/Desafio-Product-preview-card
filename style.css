@@ -13,7 +13,7 @@ body{
      position: relative;
      width: 100%;
      max-width: 1440px;
-     height: 800px;    
+     min-height: 100vh;
 }
 
 .container{
