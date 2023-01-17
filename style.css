@@ -14,13 +14,11 @@ body{
      width: 100%;
      max-width: 1440px;
      min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
-.container{
-     position: absolute;
-     left: 420px;
-     top: 175px;
-}
 .main-container{
      width: 100%;
      max-width: 600px;
@@ -112,11 +110,6 @@ button:active{
      top: 4px;
 }
 
-footer{
-     position: relative;
-     top: 800px;
-     text-align: center;   
-}
 
 .image-mobile{
      display: none;
