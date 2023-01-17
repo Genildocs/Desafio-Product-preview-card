@@ -11,7 +11,8 @@
 body{
      background: #F2EAE2;
      position: relative;
-     width: 1440px;
+     width: 100%;
+     max-width: 1440px;
      height: 800px;    
 }
 
@@ -21,7 +22,8 @@ body{
      top: 175px;
 }
 .main-container{
-     width: 600px;
+     width: 100%;
+     max-width: 600px;
      height: 450px;
      display: flex;
      margin-left: 20px;
