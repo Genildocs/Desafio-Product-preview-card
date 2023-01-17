@@ -105,8 +105,8 @@ button:active {
   background: #1a4032;
 }
 
-.image-desktop{
-     height: 450px;
+.image-desktop {
+  height: 450px;
 }
 .image-cart {
   position: relative;
@@ -120,16 +120,30 @@ footer {
   height: 50px;
 }
 
-@media (max-width: 615px) {
- footer{
-     display: none;
- }
- .main-container{
-     flex-direction: column;
-     height: auto;
- }
- .image-desktop{
-     width: 350px;
-     
- }
+@media (max-width: 600px) {
+  footer {
+    display: none;
+  }
+  .main-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .image-desktop {
+    width: 350px;
+  }
+
+  section {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  img {
+  }
+}
+
+@media (max-width: 350px) {
+  section {
+    width: 100%;
+    min-width: 350px;
+  }
 }
