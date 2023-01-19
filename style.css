@@ -127,21 +127,14 @@ footer {
     margin: 28px 16px 28px 16px;
   }
   .image-desktop {
-    width: 350px;
+    width: 100%;
     height: auto;    
   }
 
   section {
-    width: 100%;
-    max-width: 350px;
+    width: 100%;    
   }
-
   
 }
 
-@media (max-width: 350px) {
-  section {
-    width: 100%;
-    min-width: 350px;
-  }
-}
+
