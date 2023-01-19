@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
 }
 
 .main-container {
@@ -24,13 +24,12 @@ body {
   max-width: 600px;
   height: 450px;
   display: flex;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 section {
   background: white;
-  padding: 32px 31px 32px 31px;
+  padding: 32px;
   border-radius: 0 5px 5px 0;
 }
 
@@ -115,10 +114,10 @@ button:active {
 footer {
   display: flex;
   justify-content: center;
-  height: 50px;
+  height: 5vh;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 375px) {
   footer {
     display: none;
   }
