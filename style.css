@@ -129,13 +129,13 @@ footer {
     
   }
   .image-desktop {
-    width: 350px;
+    width: 100%;
     height: auto;    
   }
 
   section {
     width: 100%;
-    max-width: 350px;
+    
   }
 
   
