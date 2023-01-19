@@ -117,7 +117,7 @@ footer {
   height: 5vh;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   footer {
     display: none;
   }
@@ -127,14 +127,21 @@ footer {
     margin: 28px 16px 28px 16px;
   }
   .image-desktop {
-    width: 100%;
+    width: 350px;
     height: auto;    
   }
 
   section {
-    width: 100%;    
+    width: 100%;
+    max-width: 350px;
   }
+
   
 }
 
-
+@media (max-width: 350px) {
+  section {
+    width: 100%;
+    min-width: 350px;
+  }
+}
