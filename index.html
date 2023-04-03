@@ -1,45 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Product preview card component</title>
 </head>
-
 <body>
+  <main class="main">
+    <picture class="picture">
+      <source media="(max-width:600px)" srcset="./images/image-product-mobile.jpg">
+      <img src="./images/image-product-desktop.jpg" alt="image-parfum" class="picture__img" >
+    </picture>
 
-  <div class="wrapper">
-    <main class="main-container">
+    <section class="section-info">
+      <p class="section-info__p-1">perfume</p>
+      <h1 class="section-info__title">Gabrielle Essence Eau De Parfum</h1>
+      <p class="section-info__p-2">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.</p>
+      <div class="price">
+        <p class="price__one">$149.99</p>
+        <p class="price__two">$169.99</p>
+      </div>      
+      <button class="btn"><img src="./images/icon-cart.svg" class="image-cart" alt="image-cart"> Add to Cart</button>
+    </section>
+  </main>
 
-      <picture>
-        <source media="(max-width:600px)" srcset="./images/image-product-mobile.jpg">
-        <img src="./images/image-product-desktop.jpg" alt="image-parfum" class="image-desktop">
-      </picture>
-
-      
-
-      <section>
-        <p class="new-paragraph">perfume</p>
-        <h1>Gabrielle Essence Eau De Parfum</h1>
-        <p class="first-paragraph">A floral, solar and voluptuous interpretation composed by Olivier Polge,
-          Perfumer-Creator for the House of CHANEL.</p>
-        <p class="second-paragraph">$149.99</p>
-        <p class="third-paragraph">$169.99</p>
-        <button><img src="./images/icon-cart.svg" class="image-cart" alt="image-car"> Add to Cart</button>
-      </section>
-
-    </main>
-  </div>
-
-  <footer>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/Genildocs" target="_blank">Genildocs</a>.
+  <footer class="footer">
+    <div class="footer-info">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Genildocs" target="_blank">Genildocs</a>.
+    </div>    
   </footer>
-
 </body>
-
 </html>
