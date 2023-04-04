@@ -1,9 +1,25 @@
 .picture{
 
     &__img{
-        max-height: 45rem;
+        height: 45rem;
         width: 100%;
         object-fit: cover;
         display: block;
+        border-radius: 1rem 0 0 1rem;        
+        // transition: all 0.5s;
+        
+        // &:hover{
+        //     transform: scale(1.1);
+        // }
+    @media(max-width:400px){
+        height: 100%;
+    }    
+        
     }
+
+   
+}
+
+.image-cart{
+    margin-right: 1rem;   
 }

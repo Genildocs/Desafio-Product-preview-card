@@ -1,3 +1,24 @@
 .btn{
-    align-content: center;
+    padding: 1.5rem 6.2rem;
+    background: #3D8168;
+    border-radius: 0.8rem;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+
+    &:hover{
+        background: #5aa187;
+        transform: translateY(-0.5rem);
+    }
+
+    &:active{
+        background: #3D8168;
+        transform: translateY(0);
+    }
 }
