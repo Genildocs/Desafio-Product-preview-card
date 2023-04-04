@@ -1,0 +1,25 @@
+.section-info{
+    padding: 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3rem;   
+    background-color: white;
+    
+    
+    &__p-1{
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        letter-spacing: 0.5rem;
+        color: #6C7289 ;
+        text-transform: uppercase;
+    }
+
+    &__title{
+
+    }
+
+    &__p-2{
+        
+    }
+}
