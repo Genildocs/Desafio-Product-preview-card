@@ -19,6 +19,10 @@ html{
 
 body{
     min-height: 100vh;
-    background-color:  #F2EAE2;    
+    background-color:  #F2EAE2;
+    
+    @media (max-width: 425px){
+        padding: 2.8rem 1.6rem;
+    }
 }
 

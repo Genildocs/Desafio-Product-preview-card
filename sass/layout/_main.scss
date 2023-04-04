@@ -4,8 +4,8 @@
     align-items: center;      
     height: 95vh;
     
-    @media(max-width: 400px){
-        flex-wrap: wrap;
+    @media(max-width: 425px){
+        flex-direction: column;
         align-items: normal;  
     }
 }
