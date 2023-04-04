@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm-run-all  -p compile:sass start-lite",
     "start-lite": "lite-server",
-    "compile:sass": "sass sass/main.scss css/style.css --watch"
+    "compile:sass": "sass sass/style.scss css/style.css --watch"
   },
   "author": "genildocs",
   "license": "ISC",
